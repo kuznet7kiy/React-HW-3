@@ -1,0 +1,27 @@
+.restartButton {
+	font-family: 'Winky Sans', sans-serif;
+	background-color: #e13639;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 8px;
+	cursor: pointer;
+	letter-spacing: 2px;
+	transition:
+		background-color 0.3s ease,
+		transform 0.2s;
+}
+
+.restartButton:hover {
+	background-color: #c02d30;
+}
+
+.restartButtonNeeded {
+	background-color: #51ba56;
+}
+
+.restartButtonNeeded:hover {
+	background-color: #45a049;
+}
